@@ -69,12 +69,12 @@ public class player : MonoBehaviour
         {
             if (gameManager.GetStageItemCount() == itemCount)
             {
-                //´ÙÀ½½ºÅ×ÀÌÁö
+                //ë‹¤ìŒìŠ¤í…Œì´ì§€
                 SceneManager.LoadScene("rollaball_next");
             }
             else
             {
-                //Àç½ÃÀÛ
+                //ì¬ì‹œì‘
                 SceneManager.LoadScene(gameManager.GetSceneName());
             }
         }
